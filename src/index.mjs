@@ -99,5 +99,32 @@
  * スプレッド構文 ...
  */
 //配列の展開
-const arr1 = [1, 2];
-console.log(arr1);
+// const arr1 = [1, 2];
+// console.log(arr1);
+// console.log(...arr1);
+
+// const sumFunc = (num1, num2) => {
+//   console.log(num1 + num2);
+// };
+// sumFunc(...arr1);
+
+//まとめる
+// const arr2 = [1, 2, 3, 4, 5];
+// const [num1, num2, ...num3] = arr2;
+// console.log(num1);
+// console.log(num2);
+// console.log(num3);
+
+//配列のコピー、結合
+// const arr3 = [10, 20];
+// const arr4 = [30, 40];
+// const arr5 = [...arr3];
+// console.log(arr5);
+
+// // これは参照渡しになるので注意
+// const arr6 = arr3;
+// console.log(arr6);
+
+// // 配列のコピーはスプレッド構文を使うこと
+// const arr7 = [...arr3, ...arr4];
+// console.log(arr7);
