@@ -128,3 +128,45 @@
 // // 配列のコピーはスプレッド構文を使うこと
 // const arr7 = [...arr3, ...arr4];
 // console.log(arr7);
+
+/**
+ * map filterを使った配列の処理
+ */
+// const nameArr = ["a", "b", "c"];
+// for (index = 0; index < nameArr.length; index++) {
+//   console.log(`${index}番目は、${nameArr[index]}です。`);
+// }
+
+// const nameArr2 = nameArr.map((name) => {
+//   return name;
+// });
+// console.log(nameArr2);
+
+// nameArr.map((name, i) => console.log(`${i}は、${name}です。`));
+
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 1;
+// });
+// console.log(newNumArr);
+
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "c") {
+//     return name + " sama.";
+//   } else {
+//     return `${name} san.`;
+//   }
+// });
+// console.log(newNameArr);
+
+// 三項演算子
+// const val1 = 1 < 0 ? "true" : "false";
+// console.log(val1);
+
+// const num = 13000;
+// console.log(num.toLocaleString());
+
+// const matched = typeof num === "number" ? num.toLocaleString() : "数値を入れて";
+// console.log(matched);
+
+//論理演算子
